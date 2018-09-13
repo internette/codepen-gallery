@@ -1,0 +1,33 @@
+{
+  "name": "codepen-gallery",
+  "version": "1.0.0",
+  "description": "A gallery for my codepens",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/internette/codepen-gallery.git"
+  },
+  "keywords": [
+    "codepen",
+    "gallery",
+    "generative",
+    "art",
+    "design"
+  ],
+  "author": "Antoinette Janus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/internette/codepen-gallery/issues"
+  },
+  "homepage": "https://github.com/internette/codepen-gallery#readme",
+  "dependencies": {
+    "d3": "^5.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
